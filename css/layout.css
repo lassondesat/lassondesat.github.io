@@ -477,7 +477,7 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/Berg-bw.JPG) no-repeat;
+  background: url(img/Berg-bw.JPG) no-repeat;
   background-size: cover;
   background-position: center center;
 }
