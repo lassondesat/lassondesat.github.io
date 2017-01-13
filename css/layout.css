@@ -343,48 +343,42 @@ fieldset[disabled] .btn-theme {
   .promo-section .promo-section-col {
     padding-top: 100px;
     padding-bottom: 100px;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
 }
 
 @media (min-width: 992px) {
   .promo-section {
     position: relative;
-    height: 400px;
-    overflow-y: auto;
-    overflow-y: scroll;
+    height: 700px;
+    top: 50px;
+
   }
   .promo-section .promo-section-col {
     width: 45%;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
   .promo-section .promo-section-img-left {
     position: absolute;
     top: 0;
     right: 50%;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
   .promo-section .promo-section-img-right {
     position: absolute;
     top: 0;
     left: 50%;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
   .promo-section .ver-center {
     display: table;
     height: 400px;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
   .promo-section .ver-center-aligned {
     display: table-cell;
     vertical-align: middle;
-    overflow-y: auto;
-    overflow-y: scroll;
+
   }
 }
 
@@ -1302,9 +1296,7 @@ fieldset[disabled] .btn-theme {
     [Overflow]
 ------------------------------------------------------------------*/
 .overflow-h {
-  overflow: hidden;
-  overflow: auto;
-  overflow: scroll;
+  overflow: visible;
 }
 
 
