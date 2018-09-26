@@ -31,13 +31,13 @@ html, html a, body {
 }
 
 body {
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   font-size: 15px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   margin-bottom: 15px;
@@ -48,12 +48,12 @@ li,
 li a {
   font-size: 16px;
   font-weight: 500;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #515769;
 }
 
 a {
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #81848f;
   outline: 0;
 }
@@ -68,7 +68,7 @@ a:focus, a:hover, a:active {
   position: relative;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
@@ -82,16 +82,9 @@ a:focus, a:hover, a:active {
   content: " ";
 }
 
-span {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: Hind, sans-serif;
-  color: #bfc1c7;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #515769;
   line-height: 1.4;
   margin: 0 0 15px;
@@ -173,7 +166,7 @@ h4 {
   position: relative;
   font-size: 17px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   border-left: none;
@@ -343,42 +336,34 @@ fieldset[disabled] .btn-theme {
   .promo-section .promo-section-col {
     padding-top: 100px;
     padding-bottom: 100px;
-
   }
 }
 
 @media (min-width: 992px) {
   .promo-section {
     position: relative;
-    height: 700px;
-    top: 50px;
-
+    height: 400px;
   }
   .promo-section .promo-section-col {
     width: 45%;
-
   }
   .promo-section .promo-section-img-left {
     position: absolute;
     top: 0;
     right: 50%;
-
   }
   .promo-section .promo-section-img-right {
     position: absolute;
     top: 0;
     left: 50%;
-
   }
   .promo-section .ver-center {
     display: table;
     height: 400px;
-
   }
   .promo-section .ver-center-aligned {
     display: table-cell;
     vertical-align: middle;
-
   }
 }
 
@@ -485,7 +470,7 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/berg-bw.JPG) no-repeat;
+  background: url(../img/1920x1080/03.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -512,7 +497,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .footer .footer-input {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .footer .footer-logo {
@@ -628,10 +613,10 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 148px;
+  width: 85px;
   height: auto;
-  max-width: 200%;
-  max-height: 200%;
+  max-width: 100%;
+  max-height: 100%;
   vertical-align: middle;
 }
 
@@ -685,7 +670,7 @@ fieldset[disabled] .btn-theme {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;
@@ -836,6 +821,43 @@ fieldset[disabled] .btn-theme {
   color: #81848f;
   margin-bottom: 10px;
 }
+/*--------------------------------------------------
+    [Video BG]
+----------------------------------------------------*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: red;
+}
 
 /*--------------------------------------------------
     [Back To Top Theme Button]
@@ -938,21 +960,23 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control:focus {
-  color: #e7e7e7;
+  color: #515769;
   box-shadow: none;
 }
 
 .form-control:focus::-moz-placeholder {
-  color: #e7e7e7;
+  color: #515769;
 }
 
 .form-control:focus:-ms-input-placeholder {
-  color: #e7e7e7;
+  color: #515769;
 }
 
 .form-control:focus::-webkit-input-placeholder {
-  color: #e7e7e7;
+  color: #515769;
 }
+
+
 
 /*------------------------------------------------------------------
     [Full Screen Carousel]
@@ -1029,7 +1053,7 @@ fieldset[disabled] .btn-theme {
   top: 0;
   right: 0;
   font-size: 15px;
-  font-family: Simple-Line-Icons;
+  font-family: 'Montserrat', sans-serif;
   color: #515769;
   content: "\e082";
 }
@@ -1296,9 +1320,8 @@ fieldset[disabled] .btn-theme {
     [Overflow]
 ------------------------------------------------------------------*/
 .overflow-h {
-  overflow: visible;
+  overflow: hidden;
 }
-
 
 /*--------------------------------------------------
     [Font Weight]
