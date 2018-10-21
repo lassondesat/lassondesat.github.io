@@ -1235,8 +1235,7 @@ h1.headerContent{
 
 .contact-form-split {
   display: flex;
-  background-image: url(../img/background/bergeron-footer.jpg);
-  background-size: cover;
+  background: #4D5359;
 }
 
 .contact-text{
