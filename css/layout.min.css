@@ -1202,10 +1202,12 @@ h1.headerContent{
   background-image: url("../img/background/maxwell.jpg");
   background-size: cover;
   flex: 1;
-  padding: 7rem;}
+  padding: 7rem;
+  background-position: center;
+}
 
 .left-half-two {
-  background-image: url("../img/background/bergeron.jpg");
+  background-image: url("../img/background/bergeron.JPG");
   background-size: cover;
   flex: 1;
   padding: 7rem;
